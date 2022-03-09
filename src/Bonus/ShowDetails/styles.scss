@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luxurious+Roman&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+.showdetails{
+  &__thumbnail{
+    &>img{
+
+    }
+  }
+  &__name{
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  &__description{
+    font-family: 'Luxurious Roman', cursive;
+    width: 500px;
+    font-weight:bold;
+  }
+  &__price{
+    font-family: 'Bangers', cursive;
+  }
+  &>button{
+    width: 160px;
+    height: 30px;
+    box-shadow:inset 0 0 0 0 gold;
+    transition: all 0.5s ease;
+  }
+  &>button:hover{
+    box-shadow: inset 300px 0 0 0  gold;
+  }
+}

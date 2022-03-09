@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luxurious+Roman&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+.productone{
+  &__thumbnail{
+    &>img{
+      width: 240px;
+      height: 240px;
+    }
+  }
+  &__name{
+    font-size: 25px;
+    color: #3b3838;
+    font-family: 'Bangers', cursive;
+    cursor: pointer;
+    transition: 2s;
+    text-shadow: 0.5px 1.5px #9ea19d;
+  }
+  &__price{
+    font-size: 18px;
+    font-family: 'Bangers',cursive;
+    color: #A47343;
+  }
+  &>button{
+    width: 192px;
+    height: 40px;
+    font-size: 20px;
+    color: #A47343;
+    font-family: 'Bangers',cursive;
+    padding: 1px 5px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.8s;
+  }
+  &>button:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 0 #f9e506;
+  }
+}

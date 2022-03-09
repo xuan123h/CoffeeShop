@@ -1,0 +1,22 @@
+.backgroundtet{
+  &>img{
+    position: absolute;
+    width: 250px;
+  }
+  &>img:nth-child(2){
+    left:200px;
+    margin-top: 520px;
+  }
+  &>img:first-child{
+    left: 200px;
+    margin-top: 90px;
+  }
+  &>img:nth-child(3){
+    left: 200px;
+    margin-top: 1000px;
+  }
+  &>img:nth-child(4){
+    left: 200px;
+    margin-top: 1450px;
+  }
+}

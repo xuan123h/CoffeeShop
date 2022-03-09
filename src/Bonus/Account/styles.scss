@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luxurious+Roman&family=Nerko+One&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+.account{
+  width: 500px;
+  height: 500px;
+  background-color: brown;
+  margin-left: 700px;
+  margin-top: 190px;
+  display: flex;
+  &__signup{
+    // display: none;
+    &>h3{
+      font-family: 'Nerko One', cursive;
+      font-size: 25px;
+      color: #A47343;
+      margin-left: 35px;
+    }
+    &>input{
+      width: 380px;
+      height: 40px;
+      position: absolute;
+      left: 750px;
+      padding-left: 14px;
+      outline: none;
+    }
+    &-item{
+      display: flex;
+      position: absolute;
+      margin-top: 50px;
+      &>input{
+      width: 380px;
+      height: 40px;
+      position: absolute;
+      left: 42px;
+      padding-left: 14px;
+      outline: none;
+      }
+      &>li{
+        position: absolute;
+        margin-left: 365px;
+        font-size: 26px;
+        margin-top: 10px;
+      }
+    }
+    &>button{
+      position: absolute;
+      margin-top: 180px;
+      width: 300px;
+      height: 40px;
+      font-size: 20px;
+      font-family: 'Nerko One', cursive;
+      margin-left: 10px;
+    }
+    &-bottom{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      margin-top: 250px;
+      margin-left: 150px;
+      border: 1px solid #A47343;
+      &>li{
+        margin-left: 10px;
+      }
+      &>p{
+        margin-left: 10px;
+      }
+    }
+  }
+  &>h3{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-family: 'Nerko One', cursive;
+    font-size: 25px;
+    color: #A47343;
+  }
+  &>li{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 25px;
+    color: gold;
+    font-size: 30px;
+  }
+}

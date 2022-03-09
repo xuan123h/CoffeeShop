@@ -1,0 +1,41 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  margin-left:580px;
+  margin-top: 40px;  
+  &__img{
+    margin-top: 15px;
+  }
+  &__restaurant{
+    &>select{
+      width: 430px;
+      height: 35px;
+      margin-left: 40px;
+      outline: none;
+      &>option{
+        outline: none;
+        border: none;
+      }
+    }
+  }
+  &__search{
+    display: flex;
+    align-items:center;
+    margin-left: 180px;
+    margin-top: 0px;
+    &>input{
+      width: 430px;
+      height: 28px;
+      outline: none;
+    }
+    &>li{
+      width: 30px;
+      height: 30px;
+      border: 1px solid greenyellow;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: khaki;
+    }
+  }
+}

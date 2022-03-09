@@ -1,0 +1,103 @@
+.category{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-right: 1px solid ;
+  margin-top: 0px;
+  &__title{
+    position: absolute;
+    margin-left: 230px;
+    top: 0px;
+    &>h2{
+      width: 270px;
+      height: 30px;
+      border-bottom: 8px solid green;
+    }
+  }
+  &__item{
+    position: absolute;
+    margin-top: 70px;
+    font-size: 14px;
+    margin-left: 255px;
+    color: #000000D9;
+    &>ul{
+      &>li:first-child :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(2){
+        margin-top: 30px;
+      }
+      &>li:nth-child(2) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(3){
+        margin-top: 30px;
+      }
+      &>li:nth-child(3) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(4){
+        margin-top: 30px;
+      }
+      &>li:nth-child(4) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(5){
+        margin-top: 30px;
+      }
+      &>li:nth-child(5) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(6){
+        margin-top: 30px;
+      }
+      &>li:nth-child(6) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(7){
+        margin-top: 30px;
+      }
+      &>li:nth-child(7) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(8){
+        margin-top: 30px;
+      }
+      &>li:nth-child(8) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(9){
+        margin-top: 30px;
+      }
+      &>li:nth-child(9) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+      &>li:nth-child(10){
+        margin-top: 30px;
+      }
+      &>li:nth-child(10) :hover{
+        border-bottom:5px solid gold;
+        color: grey;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+}

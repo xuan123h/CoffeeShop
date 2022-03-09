@@ -1,0 +1,10 @@
+.productseven-list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 340px;
+  &>li{
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+}

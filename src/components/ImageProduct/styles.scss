@@ -1,0 +1,9 @@
+.image-product{
+  position: absolute;
+  margin-left: 550px;
+  top: 190px;
+  &>img{
+    width: 100%;
+    height: auto;
+  }
+}

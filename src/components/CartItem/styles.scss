@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fira+Sans+Condensed:wght@200&family=Josefin+Sans:ital,wght@1,300&family=Luxurious+Roman&family=Nerko+One&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+.cart{
+  &>button{
+    position: absolute;
+    width: 382px;
+    height: 50px;
+    color: #fff;
+    background-color: #6495ED;
+    margin-left: 502px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  &__left{
+    &-top{
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      width: 1240px;
+      height: 300px;
+      &>h3{
+        text-align: center;
+        font-size: 33px;   
+        font-family: 'Sansita Swashed', cursive;
+        position: absolute;
+        margin-left: 150px;
+        top: 90px;
+        border-bottom: 8px solid goldenrod;
+      }
+      &>p{
+        position: absolute;
+        margin-left: 1150px;
+        font-size: 33px;
+        top: 90px;
+        border-bottom: 8px solid goldenrod;
+      }
+    }
+    &-bottom{
+      // position: absolute;
+      top: 220px;
+      margin-left: 150px;
+      &>table{
+        &>thead{
+          position: absolute;
+          top: 200px;
+          margin-left: 50px;
+          &>th:nth-child(2){
+            position: absolute;
+            width: 200px;
+          }
+          &>th:nth-child(3){
+            position: absolute;
+            margin-left: 460px;
+            width: 100px;
+          }
+          &>th:nth-child(4){
+            position: absolute;
+            margin-left: 680px;
+            width: 100px;
+          }
+          &>th:nth-child(5){
+            position: absolute;
+            width: 100px;
+            margin-left: 880px;
+          }
+        }
+        &>tbody{
+          display: flex;
+          align-items: center;
+          position: absolute;
+          top: 265px;
+          margin-left: 20px;
+          font-size: 22px;
+          &>td:nth-child(2){
+            position: absolute;
+            width: 300px;
+          }
+          &>td:nth-child(3){
+            position: absolute;
+            left: 504px;
+            &>select{
+              width: 80px;
+              height: 32px;
+              outline: none;
+              padding-left: 10px;
+              font-size: 20px;
+            }
+          }
+          &>td:nth-child(4){
+            position: absolute;
+            left: 716px;
+            &>input{
+              width: 80px;
+              height: 32px;
+              outline: none;
+              padding-left: 10px;
+              font-size: 22px;
+            }
+          }
+          &>td:nth-child(5){
+            position: absolute;
+            left: 870px;
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+  &__right{
+    position: absolute;
+    margin-left: 1380px;
+    top: 80px;
+    width: 400px;
+    height:500px ;
+    background-color: green;
+    &-total{
+      display: flex;
+      font-size: 25px;
+      font-family: 'Fira Sans Condensed', sans-serif;
+      font-weight: bold;
+      margin-left: 100px;
+      margin-top: 10px;
+      &>p:nth-child(2){
+        margin-left: 40px;
+      }
+    }
+    &>h4{
+      font-size: 33px;   
+      font-family: 'Sansita Swashed', cursive;
+    }
+    &>h6{
+      font-size: 26px;
+    }
+    .one{
+      position: absolute;
+      left: 105px;
+      top: 199px;
+      width: 232px;
+      height: 30px;
+      outline: none;
+    }
+    .two{
+      position: absolute;
+      left: 105px;
+      top: 259px;
+      width: 232px;
+      height: 30px;
+      outline: none;
+      padding-left: 10px;
+      text-align: center;
+    }
+  }
+}

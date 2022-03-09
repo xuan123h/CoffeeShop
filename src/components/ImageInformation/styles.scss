@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luxurious+Roman&family=Nerko+One&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Josefin+Sans:ital,wght@1,300&family=Luxurious+Roman&family=Nerko+One&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+.image-information{
+  &__one{
+    width: auto;
+    height: 400px;
+    background-color: #deb887;
+
+    &>h2{
+      font-family: 'Nerko One', cursive;
+      color: #fff;
+      font-size: 70px;
+      height: 60px;
+      position: absolute;
+      margin-left: 80px;
+      margin-top: 10px;
+    }
+    &>img{
+      width: 675px;
+      height: 553.5px;
+      position: absolute;
+    }
+    &>p{
+      width: 810px;
+      height: 120px;
+      position: absolute;
+      margin-top: 110px;
+      margin-left: 80px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+  &__two{
+    width: auto;
+    height: 400px;
+    background-color: #fff;
+
+    &>h2{
+      font-family: 'Nerko One', cursive;
+      color: #b97343;
+      font-size: 70px;
+      height: 60px;
+    }
+    &>img{
+      width: 295px;
+      height: 458.03px;
+      position: absolute;
+      left: 120px;
+      top: 550px;
+    }
+    &>p{
+      width: 885px;
+      height: 90px;
+      position: absolute;
+      margin-left: 750px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+  &__three{
+    width: auto;
+    height: 400px;
+    background-color:#696969;
+
+    &>h2{
+      font-family: 'Nerko One', cursive;
+      color: #fff;
+      font-size: 70px;
+      height: 60px;
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 80px;
+    }
+    &>img{
+      width: 675px;
+      height: 506.25px;
+      position: absolute;
+      left: 899px;
+    }
+    &>p{
+      width: 810px;
+      height: 120px;
+      position: absolute;
+      margin-top: 170px;
+      margin-left: 50px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+  &__for{
+    width: auto;
+    height: 400px;
+    background-image: url(https://thecoffeeshopvn.herokuapp.com/static/img/BANHMI-bg_2.jpg);
+
+    &>h2{
+      font-family: 'Nerko One', cursive;
+      color: #fff;
+      font-size: 70px;
+      height: 60px;
+      margin-top: 0px;
+    }
+    &>img{
+      width: 663.75px;
+      height: 399.56px;
+      position: absolute;
+      left: 90px;
+      top: 1455px;
+    }
+    &>p{
+      width: 885px;
+      height: 90px;
+      color: #fff;
+      margin-left: 800px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+}

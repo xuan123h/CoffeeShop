@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fira+Sans+Condensed:wght@200&family=Josefin+Sans:ital,wght@1,300&family=Luxurious+Roman&family=Nerko+One&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+*{
+  margin-right: 4px;
+}
+.product{
+  &>li{
+    position: absolute;
+    top: 850px;
+    margin-left: 230px;
+    font-size: 30px;
+    width: 260px;
+    border-right: 1px solid green;
+    height: 100px;
+    margin-top: 20px;
+    font-family: 'Luxurious Roman', cursive;
+
+    &>a{
+      color: black;
+    border-bottom: 5px solid green;
+    }
+  }
+  .as{
+    position: absolute;
+    margin-top: 180px;
+    font-family: 'Luxurious Roman', cursive;
+  }
+}

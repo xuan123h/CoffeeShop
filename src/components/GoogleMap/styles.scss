@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+.google-map{
+  margin-top: 30px;
+  &>h2{
+    position: absolute;
+    margin-left: 280px;
+    font-family: 'Sansita Swashed', cursive;   
+    font-size: 55px; 
+    border-bottom: 10px solid gold ;
+  }
+  &__item{
+    &-one{
+      position: absolute;
+      margin-left: 270px;
+      margin-top: 150px;
+      width: 400px;
+      height: 700px;
+      background-color: #EA8025;
+      &>h3{
+        position: absolute;
+        width: 400px;
+        margin-top: 30px;
+        font-size: 30px;
+        font-family: 'Luxurious Roman', cursive;
+      }
+      &>p{
+        position: absolute;
+        margin-top: 100px;
+        width: 400px;
+        color:#FFFFFF;
+      }
+      &>p:nth-child(2){
+        margin-top: 120px;
+      }
+      &>p:nth-child(3){
+        margin-top: 150px;
+      }
+      &>p:nth-child(4){
+        margin-top: 180px;
+      }
+    }
+    &-two{
+      &>iframe:first-child{
+        position: absolute;
+        width: 737px;
+        margin-top: 160px;
+        left: 700px;        
+      }
+      &>iframe:nth-child(2){
+        position: absolute;
+        width: 737px;
+        margin-top: 400px;
+        left: 700px;
+      }
+      &>iframe:nth-child(3){
+        position: absolute;
+        width: 737px;
+        margin-top: 650px;
+        left: 700px;
+      }
+    }
+  }
+}

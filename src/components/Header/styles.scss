@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+.header{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  &__logo{
+    margin-left: 25px;
+    // font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    &>li{
+      list-style: none;
+      width: 200px;
+    }
+  }
+  &__page{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 19px;
+    margin-left: 100px;
+    &>ul{
+      display: flex;
+      text-decoration: none;
+      &>li{
+        list-style: none;
+        &>a{
+          text-decoration: none;
+        }
+      }
+      &>li:first-child{
+        width: 100px;
+      }
+      &>li:nth-child(2){
+        margin-left: 55px;
+        width: 100px;
+      }
+      &>li:nth-child(3){
+        margin-left: 55px;
+        width: 200px;
+      }
+      &>li:nth-child(4){
+        margin-left: 55px;
+        width: 150px;
+      }
+      &>li:nth-child(5){
+        margin-left: 55px;
+        width: 100px;
+      }
+      &>li:first-child :hover{
+        border-bottom: 1px solid gold;
+        transition: all 0.5s ease;
+      }
+      &>li:nth-child(2) :hover{
+        border-bottom: 1px solid gold;
+        transition: all 0.5s ease;
+      }
+      &>li:nth-child(3) :hover{
+        border-bottom: 1px solid gold;
+        transition: all 0.5s ease;
+      }
+      &>li:nth-child(4) :hover{
+        border-bottom: 1px solid gold;
+        transition: all 0.5s ease;
+      }
+      &>li:nth-child(5) :hover{
+        border-bottom: 1px solid gold;
+        transition: all 0.5s ease;
+      }
+    }
+  }
+  &__icons{
+    display: flex;
+    margin-left: 260px;
+    &>li{
+      list-style: none;
+    }
+    &>li:nth-child(2){
+      margin-left: 80px;
+    }
+    &>li:nth-child(2) :hover{
+      border-bottom: 5px solid gold;
+      transition: all 0.5s ease;
+      position: absolute;
+    }
+  }
+  &__bonus{
+    display:flex;
+    position: absolute;
+    // margin-top: 120px;
+    margin-top: 60px;
+    margin-left: 380px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 19px;
+    &>li:nth-child(2){
+      margin-left: 75px;
+    }
+    &>li:nth-child(2) :hover{
+      border-bottom: 1px solid gold;
+      transition: all 0.5s ease;
+    }
+    &>li:nth-child(3){
+      margin-left: 95px;
+    }
+    &>li:nth-child(3) :hover{
+      border-bottom: 1px solid gold;
+      transition: all 0.5s ease;
+    }
+    &>li:nth-child(4){
+      margin-left: 95px;
+    }
+    &>li:nth-child(4) :hover{
+      border-bottom: 1px solid gold;
+      transition: all 0.5s ease;
+    }
+    &>li:first-child:hover{
+      border-bottom: 1px solid gold;
+      transition: all 0.5s ease;
+    }
+    &>li:nth-child(5){
+      margin-left: 60px;
+    }
+    &>li:nth-child(5) :hover{
+      border-bottom: 1px solid gold;
+      transition: all 0.5s ease;
+    }
+  }
+}

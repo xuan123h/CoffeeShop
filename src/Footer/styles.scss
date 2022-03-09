@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@100;300&family=Sansita+Swashed&display=swap');
+.footer{
+  // position: absolute;
+  position: absolute;
+  margin-top: 1100px;
+  left: 800px;
+
+  &>h4{
+    font-size: 50px;
+    font-family: 'Sansita Swashed', cursive;
+    color:blue;
+  }
+  &__top{
+    // display: flex;
+    margin-left: 21px;
+    font-size: 30px;
+    color: chocolate;
+    font-family: 'Sansita Swashed', cursive;
+    &>li:nth-child(2){
+      margin-left: 30px;
+    }
+  }
+  &>p{
+    font-size: 26px;
+    margin-top: 5px;
+    color: cornflowerblue;
+  }
+}
